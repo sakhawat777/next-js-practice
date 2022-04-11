@@ -19,6 +19,7 @@ const index = () => {
 				</li>
 			</ul>
 			<h1>This is home page</h1>
+			<img src='images/JaquetDroz.jpg' alt='' />
 		</div>
 	);
 };
