@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Head from 'next/head';
+import style from '../css/style.module.css';
 const about = () => {
 	return (
 		<div>
@@ -58,7 +59,8 @@ const about = () => {
 					<Link href='/about'>About</Link>
 				</li>
 			</ul>
-			<h1>This is about page</h1>
+			{/* Working With Module CSS */}
+			<h1 className={style.myText}>This is about page</h1>
 		</div>
 	);
 };
